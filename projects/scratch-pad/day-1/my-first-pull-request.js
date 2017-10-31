@@ -22,22 +22,24 @@
 /** 
  * Given an input value, print the value to the screen using console.log().
  */
+ 
+ var value = 1;
+ 
 function print(value) {
   // YOUR CODE BELOW HERE //
-  var x = 1;
-  console.log(print(x));
-  
-  
-  return print;
-  
-  
+
+ return value + 1;
+ 
+
+ 
+ 
   
   
   
   // YOUR CODE ABOVE HERE //
 }
 
-
+console.log(print(value));
 
 
 
